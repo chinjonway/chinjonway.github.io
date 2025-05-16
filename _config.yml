@@ -14,8 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 theme: jekyll-theme-so-simple
-remote_theme: mmistakes/so-simple-theme
-gem "jekyll-remote-theme"
+#remote_theme: mmistakes/so-simple-theme
+#gem "jekyll-remote-theme"
+
+
+
+
 skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "My Awesome Site"
@@ -79,6 +83,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-remote-theme
+remote_theme: mmistakes/so-simple-theme
 
 # Front Matter Defaults
 defaults:
